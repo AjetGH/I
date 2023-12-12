@@ -1,14 +1,15 @@
-<h1></h1>
+<h1>Manage Authorization</h1>
 
 
 <h2>Description</h2>
-This is a Linux lab activity to install linux network securiity applications used to capture and analyze network traffic, suricata using the "sudo" command. Demonstrating the installation, uninstall, and reinstall the application on the linux bash shell with also confirming that it has been installed correctly.
+This is a Linux lab activity to examine and manage file permissions and also demonstrating how to add users and manage user access in a system
 <br />
 
 
-<h2>Utilities Used</h2>
+<h2>Utilities and Commands Used</h2>
 
-- <b>Debian based distribution of Linux lab</b> 
+- <b>Debian based distribution of Linux lab</b>
+- <b>"ls -l", "ls -la", "sudo", "usermod", "useradd", "userdel", "chown"</b>
 
 <h2>Environments Used </h2>
 
@@ -17,24 +18,16 @@ This is a Linux lab activity to install linux network securiity applications use
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Confirming that APT is installed on the linux bash shell: <br/>
-<img src="https://imgur.com/i4K0oDx.png" height="80%" width="80%" alt="Installing and Uninstalling Linux Application Using The Advanced Package Tool and SUDO Command"/>
+Check File and Directory Detail: <br/>
+<img src="https://imgur.com/VStAWRa.png" height="80%" width="80%" alt="Manage Authorization steps"/>
 <br />
 <br />
-Installing the suricata application using APT:  <br/>
-<img src="https://imgur.com/0jPlFsv.png" height="80%" width="80%" alt="Installing and Uninstalling Linux Application Using The Advanced Package Tool and SUDO Command steps"/>
+Changing File Permissions:  <br/>
+<img src="https://imgur.com/Jw2Azq6.png" height="80%" width="80%" alt="Manage Authorization steps"/>
 <br />
 <br />
-Confirming the installation of suricata: <br/>
-<img src="https://imgur.com/WCuLhPr.png" height="80%" width="80%" alt="Installing and Uninstalling Linux Application Using The Advanced Package Tool and SUDO Command steps"/>
-<br />
-<br />
-Uninstalling Suricata:  <br/>
-<img src="https://imgur.com/6G277KX.png" height="80%" width="80%" alt="Installing and Uninstalling Linux Application Using The Advanced Package Tool and SUDO Command steps"/>
-<br />
-<br />
-List of applications installed:  <br/>
-<img src="https://imgur.com/v23FrPC.png" height="80%" width="80%" alt="Installing and Uninstalling Linux Application Using The Advanced Package Tool and SUDO Command steps"/> 
+Adding a new employee, changing ownership of a file, adding the new employee to a new group and deleting the employee from the system: <br/>
+<img src="https://imgur.com/jfC339m.png" height="80%" width="80%" alt="Manage Authorization steps"/>
 </p>
 
 <!--
